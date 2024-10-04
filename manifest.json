@@ -1,0 +1,13 @@
+{
+    "name": "joKenpo",
+    "start_url": "/joKenpo",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/jokenpo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

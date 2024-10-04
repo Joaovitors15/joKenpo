@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joKenpo</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+     <h1>joKenpo</h1>
+     <h3>Jogador:</h3>
+     <img src="img/pedra.png" alt="pedra">
+     <img src="img/papel.png" alt="papel">
+     <img src="img/tesoura.png" alt="tesoura">
+     <form name="frmJokenpo">
+        <input type="radio" name="grupo" id="pedra">pedra
+        <input type="radio" name="grupo" id="papel">papel
+        <input type="radio" name="grupo" id="tesoura">tesoura
+        <p>
+            <input type="button" value=" JOGAR" onclick="jogar()">
+            <input type="reset" value=" RESET" onclick="Limpar()">
+        </p>
+     </form>
+     <hr>
+     <h2>Computador:</h2>
+     <img src="img/pc.png" alt="pc" id="pc">
+     <hr>
+     <h3 id="placar"></h3>
+
+    <script src="app.js"></script>
+</body>
+</html>
